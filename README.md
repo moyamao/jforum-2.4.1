@@ -1,9 +1,6 @@
 # jforum-2.4.1
 jforum-2.4.1 修改版
 
-# jforum2
-BBS google jforum2
-
 #How to use it.
 
           1.download SourceForge : https://code.google.com/p/jforum2   
