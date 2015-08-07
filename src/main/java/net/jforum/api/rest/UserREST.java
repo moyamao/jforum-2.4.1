@@ -44,6 +44,7 @@ package net.jforum.api.rest;
 
 import java.util.List;
 
+import com.alibaba.fastjson.JSONObject;
 import net.jforum.Command;
 import net.jforum.JForumExecutionContext;
 import net.jforum.context.RequestContext;
@@ -79,8 +80,8 @@ public class UserREST extends Command
 			final UserDAO dao = DataAccessDriver.getInstance().newUserDAO();
 			final List<User> users = dao.selectAll();
 		
-			this.setTemplateName(TemplateKeys.API_USER_LIST);
-			this.context.put("users", users);
+			this.setTemplateName(TemplateKeys.API_JSON);
+			this.context.put("apiJson", JSONObject.toJSON(users));
 		}
 		catch (Exception e) {
 			this.setTemplateName(TemplateKeys.API_ERROR);
@@ -170,7 +171,7 @@ public class UserREST extends Command
 	
 	public Template process(final RequestContext request, final ResponseContext response, final SimpleHash context)
 	{
-		JForumExecutionContext.setContentType("text/xml");
+		JForumExecutionContext.setContentType("text/json");
 		return super.process(request, response, context);
 	}
 }

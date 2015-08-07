@@ -215,4 +215,6 @@ public final class TemplateKeys
 	public static final String AJAX_TEST_MAIL = "ajax.test.mail";
 	public static final String AJAX_LOAD_POST = "ajax.load.post";
 
+	//json
+	public static final String API_JSON = "api.json";
 }

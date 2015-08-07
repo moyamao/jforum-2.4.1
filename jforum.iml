@@ -7,10 +7,12 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
+          <root url="file://$MODULE_DIR$" relative="/" />
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources/templates" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -142,5 +144,6 @@
     <orderEntry type="library" name="Maven: org.opengis:geoapi:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: javax.measure:jsr-275:0.9.3" level="project" />
     <orderEntry type="library" name="Maven: org.owasp:csrfguard:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.6" level="project" />
   </component>
 </module>
