@@ -1,5 +1,6 @@
-# jforum-2.4.1
-jforum-2.4.1 修改版
+# BBS - jforum-2.4.1
+采用开源框架 jforum2  二次开发。
+
 
 #How to use it.
 
