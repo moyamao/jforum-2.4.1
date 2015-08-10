@@ -216,5 +216,6 @@ public final class TemplateKeys
 	public static final String AJAX_LOAD_POST = "ajax.load.post";
 
 	//json
+	public static final String API_LIST = "api.list";
 	public static final String API_JSON = "api.json";
 }

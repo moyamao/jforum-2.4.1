@@ -1,0 +1,39 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=${encoding}" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>API</title>
+    <style type="text/css"></style>
+</head>
+
+
+论坛接口：<br>
+
+访问路径：module/action/api_key.page<br>
+<br>
+<br>
+<br>
+1.发布文章接口<br>
+
+url: /postApi/insert/api_key.page <br>
+
+参数：<br>
+      userid ：用户主键      必填<br>
+      forum_id ：版面id       必填<br>
+      subject：主题     必填<br>
+      message ：信息    必填<br>
+
+返回类型 JSON <br>
+{"result.":true,"msg":"msg"}<br>
+
+result : 请求结果<br>
+msg : 处理信息<br>
+
+
+
+
+</body>
+</html>
