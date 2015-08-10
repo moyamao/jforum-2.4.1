@@ -55,3 +55,6 @@ jforum-2.4.1 修改版
 
 #WEB.XML 处理 Servlet 流程
 ![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/jforum_web_xml.png?raw=true)
+
+#Servlet net.jforum.JForum
+![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/Jforum-servlet.png?raw=true)
