@@ -13,7 +13,7 @@ jforum-2.4.1 修改版
           
           5.安装数据库 mysql 字符集 utf-8  
           
-          6.开发工具配置 maven-jetty 服务  （jetty:run-war -DskipTests）
+          6.开发工具配置 maven-jetty 服务
           
           7.修改配置文件 src/main/config/SystemGlobals.properties   
             i18n.board.default = zh_CN  
@@ -41,10 +41,14 @@ jforum-2.4.1 修改版
              src/main/config/database/mysql/mysql_db_struct.sql   
              src/main/config/database/mysql/mysql_data_dump.sql   
              
-          13.允许jetty maven 配置 jetty:run-war -Dmaven.test.skip=true  
+          13.允许jetty maven 配置 jetty:run-war -DskipTests
 
  
 #框架分析
 ![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/jfroum.png?raw=true) 
 
+#Jforum 源码目录
+![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/jforum-construction.png?raw=true)
 
+#CONF 目录
+![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/jforum-conf-construction.png?raw=true)
