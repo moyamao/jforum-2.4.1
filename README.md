@@ -61,4 +61,4 @@
 ![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/Jforum-servlet.png?raw=true)
 
 #Service net.jforum.JForum - service
-![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/Jforum-servlet-desc.png?raw=true)
+![Aaron Swartz](https://github.com/ittarvin/image/blob/master/image/jforum-servlet-desc.png?raw=true)
