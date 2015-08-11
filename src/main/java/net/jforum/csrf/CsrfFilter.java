@@ -102,7 +102,7 @@ public class CsrfFilter implements Filter {
             csrfGuard.updateTokens(httpRequest);
         } else {
             filterConfig.getServletContext().log(
-                    String.format("[WARNING] CsrfGuard does not know how to work with requests of class %s ", request
+                    String.format("[WARNING] CsrfGuard does not know how to work jforumLuceneIndex requests of class %s ", request
                             .getClass().getName()));
             filterChain.doFilter(request, response);
         }
